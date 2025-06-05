@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .20rem solid #fc0 !important;
+    padding: 0 1rem;
+}
+
+.header img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+
+.header .flag {
+    display: flex;
+    gap: 8px;
+}
+
+.addUser{
+    background-color: #f9f9f9;
+    width: 25%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.addUser h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.addUser .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.addUser .inputGroup label {
+    margin-bottom: 5px;
+}
+
+.addUser .inputGroup input,
+.addUser .inputGroup select,
+.addUser .inputGroup textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.addUser .inputGroup input:focus,
+.addUser .inputGroup select:focus,
+.addUser .inputGroup textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.addUser .inputGroup button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.btn.btn-secondary {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
+
